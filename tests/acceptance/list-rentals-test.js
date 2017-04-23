@@ -37,6 +37,6 @@ test('should show details for a selected rental', function (assert) {
   andThen(function() {
     assert.equal(currentURL(), '/rentals/grand-old-mansion', 'should navigate to show route');
     assert.equal(find('.show-listing h2').text(), "Grand Old Mansion", 'should list rental title');
-    assert.equal(find('.description').length, 1, 'should list a decription of the property');
+    assert.equal(find('.description').length, 1, 'should list a description of the property');
   });
 });
