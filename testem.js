@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * This is dummy file that exists for the sole purpose
  * of allowing tests to run directly in the browser as
@@ -17,3 +18,17 @@
  * Hence the purpose of this fake file. This file is served
  * directly from the express server to satisify the script load.
  */
+=======
+/* eslint-env node */
+module.exports = {
+  "test_page": "tests/index.html?hidepassed",
+  "disable_watching": true,
+  "launch_in_ci": [
+    "PhantomJS"
+  ],
+  "launch_in_dev": [
+    "PhantomJS",
+    "Chrome"
+  ]
+};
+>>>>>>> 381cb93c46b58730c6b4dd8f54d383de36e9acdf
