@@ -637,6 +637,6 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+381cb93c"});
+  require("super-rentals/app")["default"].create({"name":"super-rentals","version":"0.0.0+d19cd0b2"});
 }
 //# sourceMappingURL=super-rentals.map
